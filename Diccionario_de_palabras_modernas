@@ -1,0 +1,11 @@
+meme_dict = {
+    "CRNGE": "pena agena"
+    "LOL" :"Una respuesta comun o algo gracioso"
+    "ROFL": "se utiliza como reaccion a algo gracioso similar a LOL"
+}
+word = input("Escribe una palabra moderna que no entiendas")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+  print("todavia no tenemos esa palabra... pero estamos trabando en ella.)
